@@ -1,4 +1,4 @@
-import Main from "./components/Main";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata = {
@@ -10,9 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-  
+        
         {children}
-        <Footer />
+        
       </body>
     </html>
   );

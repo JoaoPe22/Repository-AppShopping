@@ -1,0 +1,22 @@
+.cabecalho {
+    padding: 15px 30px;
+    background: #f98113;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    border-radius: 5px;
+    padding: 7px 13px;
+  }
+  
+  .text:hover {
+    background: #ff9b3d;
+    transition: 0.5s;
+  }
+  
