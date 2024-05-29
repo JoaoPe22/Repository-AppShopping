@@ -9,7 +9,7 @@ export default async function Main(){
         {data.map((products) => (
             <div key={products.id} className={styles.card}>
               <h1>{products.title}</h1>
-              <h2>{products.price}</h2>
+              <h2>R${products.price}</h2>
               <p>{products.description}</p>
               <p>{products.category.name}</p>
               {/* <img src={products.images} width={100} height={100} alt='imagem de produto'></img> */}

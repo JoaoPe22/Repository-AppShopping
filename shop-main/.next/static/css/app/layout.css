@@ -1,25 +1,56 @@
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/header.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************/
-.header_cabecalho__k_Cy_ {
-    padding: 15px 30px;
-    background: #f98113;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header_text__DksZ8 {
-    margin-left: 50px;
-    font-size: 15px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    border-radius: 5px;
-    padding: 7px 13px;
-  }
-  
-  .header_text__DksZ8:hover {
-    background: #ff9b3d;
-    transition: 0.5s;
-  }
-  
+.header_pagina__As_nm {
+  margin: 0;
+  padding: 0;
+}
+
+.header_navbar__pxQ7t {
+  background-color: #333;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo__PkDFG {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header_logo__PkDFG a {
+  color: white;
+  text-decoration: none;
+}
+
+.header_navlist__NzmdS {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header_navitem__xDcuY {
+  margin-right: 40px;
+}
+
+.header_navitem__xDcuY a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header_navitem__xDcuY:hover {
+  transition: 1s;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: black;
+}
+

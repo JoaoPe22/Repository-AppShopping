@@ -3,6 +3,7 @@
   \******************************************************************************************************************************************************************************************************************************************************************************/
 .main_main__dEWbj{
     display: flex;
+    margin-top: 80px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -17,5 +18,5 @@
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
-    background-color:#d27777;
+    background-color:#554d4d;
 }
