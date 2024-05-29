@@ -1,22 +1,66 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/main.module.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
-.main_main__dEWbj{
-    display: flex;
-    margin-top: 80px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 100px;
+.main_container__7JzjP {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 60px;
 }
 
-.main_card__FvLzZ{
-    width: 300px;
-    height: 300px;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    border-radius: 25px;
-    background-color:#554d4d;
+.main_card__FvLzZ {
+  width: 350px;
+  min-height: 50px; 
+  margin: 13px;
+  background-color: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.4s;
 }
+
+.main_card__FvLzZ:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.main_cabecalho__Nrz22 {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.main_corpoCard__pisUm {
+  /* height: 150px; */
+  padding: 13px;
+  margin: 30px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.main_titulo__0cTRE {
+  font-size: 19px;
+  text-align: center;
+  margin: 0;
+}
+
+.main_preco__0swNl {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.main_descricao__n1p5j{
+    font-size: 12px;
+    color: #888;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.main_avaliacao__VoJr_{
+    font-size: 12px;
+    color: #333;
+    margin: 5px 0;
+    text-align: left;
+}
+
