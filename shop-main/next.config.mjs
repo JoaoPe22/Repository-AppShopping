@@ -2,8 +2,12 @@
 const nextConfig = {
     images:{
         domains:[
-            "fakestoreapi.com"
-            
+            "fakestoreapi.com",
+            "seeklogo.com",
+            "images.vexels.com",
+            "www.nicepng.com",
+            "icones.pro",
+            "cdn.icon-icons.com"
         ]
     }
 };
