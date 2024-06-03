@@ -1,3 +1,49 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/footer.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__woFMY{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_objetoFooter__OXyOv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_redeSocial__7YrqY{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer_itemRedeSocial__JcOih{
+    margin-right: 20px;
+}
+
+.footer_itemRedeSocial__JcOih a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer_itemRedeSocial__JcOih a:hover{
+    text-decoration: underline;
+}
+
+.footer_dataCriacao__gNgNW{
+    font-size: 14px;
+}
+
+.footer_logo__3VAec{
+    display: flex;
+    justify-content: flex-end;
+}
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/main.module.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
@@ -7,7 +53,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 5px;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .main_card__FvLzZ {
@@ -46,7 +92,7 @@
 }
 
 .main_preco__0swNl {
-  font-size: 25px;
+  font-size: 35px;
   margin: 10px 0;
 }
 
