@@ -1,49 +1,3 @@
-/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/footer.module.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************/
-.footer_footer__woFMY{
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer_objetoFooter__OXyOv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer_redeSocial__7YrqY{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.footer_itemRedeSocial__JcOih{
-    margin-right: 20px;
-}
-
-.footer_itemRedeSocial__JcOih a{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.footer_itemRedeSocial__JcOih a:hover{
-    text-decoration: underline;
-}
-
-.footer_dataCriacao__gNgNW{
-    font-size: 14px;
-}
-
-.footer_logo__3VAec{
-    display: flex;
-    justify-content: flex-end;
-}
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/main.module.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
@@ -58,7 +12,7 @@
 
 .main_card__FvLzZ {
   width: 350px;
-  min-height: 50px; 
+  min-height: 50px;
   margin: 13px;
   background-color: #fff;
   border-radius: 25px;
@@ -96,17 +50,17 @@
   margin: 10px 0;
 }
 
-.main_descricao__n1p5j{
-    font-size: 12px;
-    color: #888;
-    margin: 10px 0;
-    text-align: justify;
+.main_descricao__n1p5j {
+  font-size: 12px;
+  color: #888;
+  margin: 10px 0;
+  text-align: justify;
 }
 
-.main_avaliacao__VoJr_{
-    font-size: 12px;
-    color: #333;
-    margin: 5px 0;
-    text-align: left;
+.main_avaliacao__VoJr_ {
+  font-size: 12px;
+  color: #333;
+  margin: 5px 0;
+  text-align: left;
 }
 

@@ -19,7 +19,7 @@
 .logo {
   display: flex;
   align-items: center;
-  font-family:  'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   color: white;
   font-weight: bold;
@@ -31,10 +31,9 @@
   margin-left: 10px;
 }
 
-
 .navlist {
   list-style-type: none;
-  display: flex;  
+  display: flex;
   margin: 0;
   padding: 0;
 }

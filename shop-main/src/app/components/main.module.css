@@ -9,7 +9,7 @@
 
 .card {
   width: 350px;
-  min-height: 50px; 
+  min-height: 50px;
   margin: 13px;
   background-color: #fff;
   border-radius: 25px;
@@ -47,16 +47,16 @@
   margin: 10px 0;
 }
 
-.descricao{
-    font-size: 12px;
-    color: #888;
-    margin: 10px 0;
-    text-align: justify;
+.descricao {
+  font-size: 12px;
+  color: #888;
+  margin: 10px 0;
+  text-align: justify;
 }
 
-.avaliacao{
-    font-size: 12px;
-    color: #333;
-    margin: 5px 0;
-    text-align: left;
+.avaliacao {
+  font-size: 12px;
+  color: #333;
+  margin: 5px 0;
+  text-align: left;
 }

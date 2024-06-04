@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 export default function NotFound() {
-    return (
+  return (
+    <div>
+      <h1>Página Não Encontrada</h1>
       <div>
-        <h1>Página Não Encontrada</h1>
-        <div>
-          <Link href="/">Voltar para Home</Link>
-        </div>
+        <Link href="/">Voltar para Home</Link>
       </div>
-    );
-  }
+    </div>
+  );
+}

@@ -24,7 +24,9 @@ export default async function Main() {
             <h3 className={styles.titulo}>{products.title}</h3>
             <p className={styles.descricao}>{products.description}</p>
             <h2 className={styles.preco}>R${products.price}</h2>
-            <p className={styles.avaliacao}>Avaliações:{products.rating.count}</p>
+            <p className={styles.avaliacao}>
+              Avaliações:{products.rating.count}
+            </p>
           </div>
         </div>
       ))}

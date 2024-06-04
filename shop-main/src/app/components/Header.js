@@ -40,7 +40,9 @@ export default function Header() {
             <li className={styles.navitem}>
               <Link href="/">
                 <Image
-                  src={"https://www.nicepng.com/png/full/251-2519428_0-add-icon-white-png.png"}
+                  src={
+                    "https://www.nicepng.com/png/full/251-2519428_0-add-icon-white-png.png"
+                  }
                   width={25}
                   height={25}
                 ></Image>
