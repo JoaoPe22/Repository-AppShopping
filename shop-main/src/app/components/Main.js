@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Spinner from "./Spinner";
 import styles from "./main.module.css";
 import Image from "next/image";
 
@@ -32,28 +33,30 @@ export default function Main() {
   };
 
   // Ordem de preco crescente
-  const orderCrescente = () => {
-    const newList = [...listProduct].sort((a, b) =>
-      a.price.localeCompare(b.price)
-    );
+  const minPreco = () => {
+    const newList = [...listProduct].sort((a, b) => a.price - b.price);
+
     setListProduct(newList);
   };
 
-  // Ordem de preco decrescente
-  const orderDecrescente = () => {
-    const newList = [...listProduct].sort((a, b) =>
-      a.price.localeCompare(b.price)
-    );
+  // Ordem de preco decrecente
+  const maxPrice = () => {
+    let newList = [...listProduct].sort((a, b) => a.price - b.price);
+    newList = newList.reverse();
     setListProduct(newList);
   };
+
+  if (listProduct[0] == null) {
+    return <Spinner />;
+  }
 
   return (
     <>
       <div>
         <button onClick={orderAZ}>a-Z</button>
         <button onClick={orderZA}>z-A</button>
-        <button onClick={orderCrescente}>Ordenar Preço Crescente</button>
-        <button onClick={orderDecrescente}>Ordenar Preço Decrescente</button>
+        <button onClick={minPreco}>Ordenar Preço Crescente</button>
+        <button onClick={maxPrice}>Ordenar Preço Decrescente</button>
       </div>
 
       <main className={styles.container}>
