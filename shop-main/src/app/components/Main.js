@@ -6,12 +6,16 @@ import Image from "next/image";
 
 export default function Main() {
   const [listProduct, setListProduct] = useState([]);
+  const [listComplete, setListComplete] = useState([]);
+  const [search, setSearch] = useState("");
+
   useEffect(() => {
     const getProduct = async () => {
       const response = await fetch("https://fakestoreapi.com/products");
       const data = await response.json();
 
       setListProduct(data);
+      setListComplete(data);
     };
     getProduct();
   }, []);
@@ -50,9 +54,32 @@ export default function Main() {
     return <Spinner />;
   }
 
+  const searchText = (text) => {
+    setSearch(text);
+
+    if( text.trim() == ""){
+      setListProduct(listComplete);
+      return
+    }
+
+    const newList = listProduct.filter((product) =>
+      product.title.toUpperCase().trim().includes(search.toUpperCase().trim())
+    );
+    setListProduct(newList);
+  };
+
   return (
     <>
       <div>
+        {/* input de pesquisa de produtos */}
+        <input
+          type="text"
+          value={search}
+          placeholder="Pesquise Produto"
+          onChange={(event) => searchText(event.target.value)}
+        />
+
+        {/* botões de filtrazem */}
         <button onClick={orderAZ}>a-Z</button>
         <button onClick={orderZA}>z-A</button>
         <button onClick={minPreco}>Ordenar Preço Crescente</button>
