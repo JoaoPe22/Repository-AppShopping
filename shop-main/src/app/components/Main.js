@@ -4,6 +4,8 @@ import Spinner from "./Spinner";
 import styles from "./main.module.css";
 import Image from "next/image";
 import ErrorGetData from "./ErrorGetData";
+import Link from "next/link";
+import product from "../product/[id]/page";
 
 export default function Main() {
   const [listProduct, setListProduct] = useState([]);
@@ -124,6 +126,10 @@ export default function Main() {
               <p className={styles.avaliacao}>
                 Avaliações:{products.rating.count}
               </p>
+              <button>
+              <Link href={`product/${products.id}`}>Rota Dinamica</Link>
+              </button>
+              
             </div>
           </div>
         ))}
